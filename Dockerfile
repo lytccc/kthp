@@ -6,5 +6,5 @@ RUN chmod +x /configure.sh
 CMD /configure.sh
 
 #ENTRYPOINT ["/usr/bin/v2ray/v2ray"]
-ENV PATH /usr/bin/v2ray:$PATH
-CMD ["v2ray", "-config=/etc/v2ray/config.json"]
+# ENV PATH /usr/bin/v2ray:$PATH
+CMD ["/usr/bin/v2ray", "-config=/etc/v2ray/config.json"]
