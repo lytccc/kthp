@@ -15,7 +15,5 @@ rm -rf /tmp/v2ray
 # V2Ray new configuration
 install -d /usr/local/etc/v2ray
 
-echo "test"
 # Run V2Ray
-/usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json &
-sleep 5
+#/usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json &
