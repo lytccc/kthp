@@ -5,5 +5,6 @@ ADD config.json /usr/local/etc/v2ray/config.json
 RUN chmod +x /configure.sh
 CMD /configure.sh
 
+echo $PATH
 ENV PATH /usr/local/bin/v2ray
 CMD ["v2ray -config /usr/local/etc/v2ray/config.json"]
