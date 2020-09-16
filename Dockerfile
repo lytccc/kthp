@@ -7,4 +7,4 @@ EXPOSE 3000/tcp
 RUN /configure.sh
 
 ENV PATH /usr/local/bin/v2ray:$PATH
-ENTRYPOINT v2ray -config /usr/local/etc/v2ray/config.json
+ENTRYPOINT ["v2ray -config /usr/local/etc/v2ray/config.json &"]
