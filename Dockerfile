@@ -4,6 +4,4 @@ ADD configure.sh /configure.sh
 ADD config.json /usr/local/etc/v2ray/config.json
 RUN chmod +x /configure.sh
 EXPOSE 3000/tcp
-RUN /configure.sh
-
-ENTRYPOINT ["/usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json &"]
+ENTRYPOINT /configure.sh
