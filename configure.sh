@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Download and install V2Ray
 mkdir /tmp/v2ray
@@ -16,4 +16,5 @@ rm -rf /tmp/v2ray
 #install -d /usr/local/etc/v2ray
 
 # Run V2Ray
-nohup /usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json
+nohup /usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json &
+sleep 10
