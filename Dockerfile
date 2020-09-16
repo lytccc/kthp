@@ -1,5 +1,5 @@
 FROM golang:alpine AS builder
-RUN apk add --no-cache --virtual .build-deps tor ca-certificates curl
+RUN apk add --no-cache tor ca-certificates curl bash
 ADD configure.sh /configure.sh
 ADD config.json /usr/local/etc/v2ray/config.json
 RUN chmod +x /configure.sh
