@@ -13,7 +13,7 @@ install -m 666 /tmp/v2ray/geosite.dat /usr/local/bin/geosite.dat
 rm -rf /tmp/v2ray
 
 # V2Ray new configuration
-install -d /usr/local/etc/v2ray
+#install -d /usr/local/etc/v2ray
 
 # Run V2Ray
-nohup /usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json
+#nohup /usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json
