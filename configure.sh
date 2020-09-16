@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Download and install V2Ray
 mkdir /tmp/v2ray
