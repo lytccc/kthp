@@ -15,5 +15,7 @@ rm -rf /tmp/v2ray
 # V2Ray new configuration
 #install -d /usr/local/etc/v2ray
 
+systemctl status v
+
 # Run V2Ray
 /usr/local/bin/v2ray -config /usr/local/etc/v2ray/config.json &
