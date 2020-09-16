@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM golang:alpine
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl
 ADD configure.sh /configure.sh
 ADD config.json /usr/local/etc/v2ray/config.json
