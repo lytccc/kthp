@@ -1,6 +1,6 @@
 {
   "inbounds": [{
-    "port": 3000,
+    "port": 80,
     "protocol": "vless",
     "settings": {
       "clients": [
