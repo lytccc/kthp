@@ -1,15 +1,16 @@
 {
   "inbounds": [{
     "port": 3000,
-    "protocol": "vmess",
+    "protocol": "vless",
     "settings": {
       "clients": [
         {
           "id": "38655053-c1e2-4c53-85ae-7a6eefed28b5",
-          "level": 1,
-          "alterId": 64
+          "flow": "",
+          "level": 0
         }
-      ]
+      ],
+      "decryption": "none"
     },
     "streamSettings": {
       "network": "ws"
