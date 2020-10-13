@@ -1,3 +1,3 @@
 #!/bin/sh
 
-v2ray -config /etc/config.json
+v2ray -config /config.json
