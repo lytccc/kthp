@@ -1,5 +1,4 @@
 {
-  "log": {"loglevel": "debug"},
   "inbounds": [{
     "port": "env:PORT",
     "protocol": "vless",
